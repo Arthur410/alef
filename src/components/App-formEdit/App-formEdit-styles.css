@@ -1,0 +1,112 @@
+.forms {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.personal-form {
+    width: 620px;
+}
+
+.mt-10 {
+    margin: 5px 0;
+}
+
+.personal-form__title, .children-form__title {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.personal-form__inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.name, .age{
+    border:1px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 8px;
+}
+.name label,  .age label {
+    color:rgba(17, 17, 17, 0.48);
+    font-size:13px;
+    cursor: default;
+    margin:0;
+}
+
+.children-form {
+    margin-top: 30px;
+    width: 620px;
+}
+
+.children-form__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.children-form__inputs {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.children-form__header button {
+    color: rgba(1, 167, 253, 1);
+    border: 2px solid rgba(1, 167, 253, 1);
+    border-radius: 100px;
+    padding:10px 20px;
+    background: #fff;
+    transition: all .2s linear;
+}
+
+.children-form__header button svg path {
+    transition: all .2s linear;
+}
+
+.children-form__header button:hover {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    padding:10px 20px;
+    background: rgba(1, 167, 253, 1);
+}
+
+.children-form__header button:hover svg path {
+    fill: #fff
+}
+
+.children-form__header button svg {
+    margin-right: 5px;
+}
+
+.children-form__inputs_element {
+    display: flex;
+    margin: 5px 0;
+}
+.children-form__inputs_element > div {
+    margin-right: 16px;
+}
+
+.children-form__inputs_element button {
+    color: rgba(1, 167, 253, 1);
+}
+
+.children-form__save-button {
+    background: rgba(1, 167, 253, 1);
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 100px;
+    border: 2px solid transparent;
+    transition: all .2s linear;
+}
+
+.children-form__save-button:hover {
+    border: 2px solid rgba(1, 167, 253, 1);
+    background: #fff;
+    color:rgba(1, 167, 253, 1);
+}

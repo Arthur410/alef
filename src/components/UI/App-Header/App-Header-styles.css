@@ -1,0 +1,28 @@
+.header {
+    height: 76px;
+    border-bottom:1px solid rgba(0,0,0,.1);
+}
+.header-logo, .header-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.row, .container {
+    height: 100%;
+}
+
+.header-nav a {
+    margin:0 12px;
+    text-decoration: none;
+    color:rgba(17, 17, 17, 0.48);
+    font-size: 14px;
+    line-height: 24px;
+    transition: all .2s linear;
+}
+
+.header-nav a:hover {
+    color:black;
+}
+
